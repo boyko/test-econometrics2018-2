@@ -1,6 +1,6 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+title: Chapter 1
+description: Basic operations.
 ---
 
 ## Ex 1.1
@@ -13,13 +13,15 @@ skills: 1
 key: 2a2109b11f
 ```
 
-Do some data science.
+Do some basic calculations using R
 
 `@instructions`
 
+Add two and two.
 
 `@hint`
 
+2 + 2
 
 `@pre_exercise_code`
 
@@ -36,11 +38,12 @@ Do some data science.
 `@solution`
 
 ```{r}
-
+# Calculate the sum of 2 and 2
+2 + 2
 ```
 
 `@sct`
 
 ```{r}
-
+test_object()
 ```
