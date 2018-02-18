@@ -1,4 +1,4 @@
-# Course Title By The Instructor
+# Introduction to R
 
 ## Course development resources
 
