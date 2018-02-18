@@ -50,4 +50,5 @@ test_object("x",
   undefined_msg = "Make sure you have defined `x`.",
   incorrect_msg = "Have you correctly assigned 2 + 2 to `x`?"
 )
+success_msg("Correct!")
 ```
