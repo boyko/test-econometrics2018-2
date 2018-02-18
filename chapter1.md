@@ -17,11 +17,11 @@ Do some basic calculations using R
 
 `@instructions`
 
-Add two and two.
+Assign the result of 2 and 2 to an object called `x`.
 
 `@hint`
 
-2 + 2
+User `<-` for assignment.
 
 `@pre_exercise_code`
 
@@ -39,11 +39,15 @@ Add two and two.
 
 ```{r}
 # Calculate the sum of 2 and 2
-2 + 2
+x <- 2 + 2
 ```
 
 `@sct`
 
 ```{r}
-test_object()
+test_error()
+test_object("x",
+  undefined_msg = "Make sure you have defined `x`.",
+  incorrect_msg = "Have you correctly assigned 2 + 2 to `x`?"
+)
 ```
